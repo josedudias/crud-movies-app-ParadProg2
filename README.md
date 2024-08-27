@@ -77,7 +77,7 @@ Este componente é responsável por renderizar um formulário para adicionar ou 
 
 ### `MovieList.tsx`
 
-Este componente renderiza uma lista de filmes. Cada filme é exibido com um botão "Deletar" que permite remover o filme da lista. A função `handleDelete` faz uma requisição DELETE para a API e atualiza o estado local para remover o filme da lista.
+Este componente renderiza uma lista de filmes. Cada filme é exibido com um botão "Deletar" que permite remover o filme da lista e "Editar" que permite editar um filme. A função `handleDelete` faz uma requisição DELETE para a API e atualiza o estado local para remover o filme da lista.
 
 ## Configuração do TypeScript
 
