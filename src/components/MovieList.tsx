@@ -8,8 +8,6 @@ interface MovieListProps {
 }
 
 const MovieList: React.FC<MovieListProps> = ({ movies, setMovies, onEdit }) => {
-
-
     const handleDelete = async (id: number | undefined) => {
         await deleteMovie(id).then(() => setMovies(movies.filter(movie => movie.id !== id)));
     }
